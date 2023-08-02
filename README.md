@@ -1,2 +1,3 @@
-# AcuantCamera_SPM
-This Repository adds support for SMP
+# AcuantCamera
+
+A description of this package.
