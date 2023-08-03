@@ -22,10 +22,10 @@ let package = Package(
                            "AcuantImagePreparation",
                            "libtesseract"]),
         .binaryTarget(name: "AcuantCommon",
-                      path: "../AcuantCommon"),
+                      path: "../AcuantCommon.xcframework"),
         .binaryTarget(name: "AcuantImagePreparation",
-                      path: "../AcuantImagePreparation"),
+                      path: "../AcuantImagePreparation.xcframewor"),
         .binaryTarget(name: "libtesseract",
-                      path: "../libtesseract")
+                      path: "../libtesseract.xcframewor")
     ]
 )
