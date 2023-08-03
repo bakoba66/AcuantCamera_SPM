@@ -26,9 +26,6 @@ let package = Package(
         .binaryTarget(name: "AcuantImagePreparation",
                       path: "../AcuantImagePreparation.xcframework"),
         .binaryTarget(name: "libtesseract",
-                      path: "../libtesseract.xcframework"),
-        .testTarget(
-            name: "AcuantCameraTests",
-            dependencies: ["AcuantCamera"]),
+                      path: "../libtesseract.xcframework")
     ]
 )
